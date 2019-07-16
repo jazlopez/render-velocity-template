@@ -1,0 +1,5 @@
+<div style="border:1px solid blue">
+
+foo ${now}
+bar ${foo}
+</div>
