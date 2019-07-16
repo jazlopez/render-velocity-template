@@ -12,15 +12,16 @@ $ npm install
 ### USAGE
 
 ```
-node render-velocity-template.js --help
-Usage: render-velocity-template.js --template|-t [string] --data|-d [string]
+$ node render-velocity-template.js --help
 
-Options:
-  --version       Show version number                                  [boolean]
-  --template, -t  path to velocity template                             [string]
-  --data, -d      key=value template data.
-                    --data "foo=bar&baz=one"                              [string]
-  --help, -h      Show help
+# Usage: render-velocity-template.js --template|-t [string] --data|-d [string]
+
+# Options:
+#  --version       Show version number                                  [boolean]
+#  --template, -t  path to velocity template                             [string]
+#  --data, -d      key=value template data.
+#                    --data "foo=bar&baz=one"                              [string]
+#  --help, -h      Show help
 ```
 
 ### EXAMPLE 
