@@ -17,10 +17,10 @@ $ node render-velocity-template.js --help
 # Usage: render-velocity-template.js --template|-t [string] --data|-d [string]
 
 # Options:
-#  --version       Show version number                                  [boolean]
-#  --template, -t  path to velocity template                             [string]
+#  --version       Show version number              [boolean]
+#  --template, -t  path to velocity template        [string] [required]
 #  --data, -d      key=value template data.
-#                    --data "foo=bar&baz=one"                              [string]
+#                    --data "foo=bar&baz=one"       [string]
 #  --help, -h      Show help
 ```
 

@@ -17,6 +17,7 @@ const fs = require('fs'),
     opn = require('opn'),
     argv = y
         .usage('Usage: $0 --template|-t [string] --data|-d [string]')
+        .demandOption(["template"])
         .option("template",
             {
                 alias: "t",
